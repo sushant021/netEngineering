@@ -1,0 +1,207 @@
+/* typography */
+*, html, body{
+    /* color: #fff; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    font-size:0.9em;
+    color: #fff;
+}
+.main-wrapper>main{
+    font-size:0.9em;
+}
+
+.section-heading{
+    font-size: 2em;
+}
+.section-heading:after{
+    content: '';
+    display: block;
+    background-color:rgba(17, 112, 187, 1);
+    height: 2px;
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 15px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+#top-bar{
+    background-color:rgba(17, 112, 187, 1);
+    
+}
+
+#top-bar i{
+    background-color:rgba(0,188,212,1);
+    padding: 5px;
+    border-radius: 12px;
+    margin-right: 5px;
+}
+
+nav .navbar-collapse{
+    justify-content: center;
+}
+
+nav .nav-item{
+    margin:0 1em;
+    padding: 1.5em 0;
+}
+.nav-item:hover{
+    cursor: pointer;
+    
+}
+
+.nav-item:hover .nav-link{
+    color: rgba(17,112,187,1);
+}
+
+.nav-item .nav-link{
+    color: #000;
+
+    
+}
+
+
+
+.carousel-caption{
+    display:flex;
+    flex-direction: column;
+    text-shadow: black 2px 2px;
+    position: absolute;
+    right:0; bottom:0; left :0; top:0;
+    background-color: rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+
+.carousel-caption #title{
+    font-size: 5vw;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+}
+
+.carousel-caption #subtitle{
+    font-size:1.2em;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.call-to-action{
+    background-color:rgba(0,188,212,0.7);
+    color:#fff;
+    padding:15px 25px;
+    letter-spacing: 1px;
+}
+main>section{
+    color:#000;
+}
+#services {
+    background-color:rgba(158, 158, 159, 0.07);
+}
+#services .card{
+    border:none;
+    background-color: transparent;
+    margin:0 auto;
+}
+
+#services .card .fas, #services .card .fab{
+    font-size:4em;
+    background-color:rgba(17, 112, 187, 1);
+    padding:30px;
+    border-radius:60px;
+    color:#fff;
+}
+
+
+#experience{
+    background-image: url(../img/sliders/new.jpg);
+    color:#fff;
+}
+
+#showoff{
+    font-size: 3.5em;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin-top: 90px;
+}
+
+/* our team */
+
+#team .card{
+    border:none;
+}
+
+#team .card-img-overlay{
+    position:absolute;
+    top:unset;
+    bottom:0;
+    width:80%;
+    background-color:#fff;
+    width:80%;
+    margin: auto;
+    
+}
+#team .card-subtitle{
+    color:rgba(17,112,187,1);
+    letter-spacing: 0.5px;
+}
+#products{
+    background-color:rgba(158, 158, 159, 0.07);
+}
+.product-details{
+    background-color:rgba(0,188,212,1);
+    color:#fff;
+    padding:15px;
+}
+.product-list{
+    list-style-type: none;
+    padding: 0;
+
+}
+.product-list-item{
+    margin:10px 0px;
+}
+.article-title{
+    font-size:1.4em;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+
+
+#footer{
+    background-color: rgba(17,112,187,1);
+    color:#fff;
+    font-size:15px;
+    
+}
+.footer-title{
+    font-size:1.5em;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+.footer-list{
+    padding:0;
+    list-style-type: none;
+}
+.footer-list-link{
+    color:#fff;
+}
+.footer-list-link:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.footer-list-item{
+    margin:10px 0px;
+}
+.footer-list-item .fas{
+    font-size:1.2em;
+}
+#post-footer{
+    color:#fff;
+    background-color:rgba(0,188,212,1);
+}
+#post-footer p{
+    margin:0;
+}
